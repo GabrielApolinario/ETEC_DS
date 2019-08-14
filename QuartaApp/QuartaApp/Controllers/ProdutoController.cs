@@ -21,8 +21,10 @@ namespace QuartaApp.Controllers
             {
                 //Declaração de atributos
                 Id = 1,
-                Nome = "Carro",
-                Valor = 200.66,
+                //Conversao de Char para String
+                Nome = char.Parse("Carro"),
+                //Sufixo 'M' adicionado no final para o numero representar um decimal
+                Valor = 200.66M,
                 Qtd = 2
             };
             //ViewBag.Nome Desejado para identificação = Nome do Objeto. Nome do Atributo;
