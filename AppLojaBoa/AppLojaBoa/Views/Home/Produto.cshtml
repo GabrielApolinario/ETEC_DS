@@ -1,0 +1,20 @@
+﻿@model AppLojaBoa.Models.Produto
+
+@{
+    ViewBag.Title = "Produto";
+}
+<style type="text/css">
+.Produto-Rosa{
+    color:deeppink
+}
+
+</style>
+
+    <h2>Produto</h2>
+<div class="Produto-Rosa">
+    <p>@Model.prodId</p>
+    <p>@Model.prodNome</p>
+    <p>@Model.prodValor</p>
+    <p>@Model.prodQtd</p>
+    <p>@Model.vencimento</p>
+</div>
