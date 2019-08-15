@@ -21,18 +21,16 @@ namespace QuartaApp.Controllers
             {
                 //Declaração de atributos
                 Id = 1,
-                //Conversao de Char para String
-                Nome = char.Parse("Carro"),
-                //Sufixo 'M' adicionado no final para o numero representar um decimal
+                Nome =  "Vencido",
                 Valor = 200.66M,
-                Qtd = 2
+                Qtd = 50
             };
             //ViewBag.Nome Desejado para identificação = Nome do Objeto. Nome do Atributo;
-            ViewBag.ID = produto.Id;
-            ViewBag.Nome = produto.Nome;
-            ViewBag.Valor = produto.Valor;
-            ViewBag.Qtd = produto.Qtd;
-            return View();
+            //ViewBag.ID = produto.Id;
+            //ViewBag.Nome = produto.Nome;
+            //ViewBag.Valor = produto.Valor;
+            //ViewBag.Qtd = produto.Qtd;
+            return View(produto);
         }
     }
 }

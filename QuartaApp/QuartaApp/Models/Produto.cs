@@ -11,10 +11,9 @@ namespace QuartaApp.Models
         {
             get;set;
         }
-        public char Nome
+        public string Nome
         {
             get;set;
-            
         }
         public decimal Valor
         {
@@ -24,6 +23,6 @@ namespace QuartaApp.Models
         {
             get;set;
         }
-        
+
     }
 }

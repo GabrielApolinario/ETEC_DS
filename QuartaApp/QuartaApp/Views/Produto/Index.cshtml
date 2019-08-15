@@ -1,0 +1,24 @@
+﻿@model QuartaApp.Models.Produto
+ @*Indicação de recebimento de modelo | Nome da App | Pasta | Objeto*@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @*Acessando os atributos do objeto Produto*@
+        <p>@Model.Id</p>
+        <p>@Model.Nome</p>
+        <p>@Model.Valor</p>
+        <p>@Model.Qtd</p>
+    </div>
+</body>
+</html>
